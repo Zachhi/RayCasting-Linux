@@ -20,17 +20,16 @@ Simple ray casting simulation that shows how rays of light would behave dependin
 
 ### Dependencies
 
-SFML (Simple and Fast Multi-Media Library) 2.5.1 or later is required in order to run this program. You can install SFML here: https://www.sfml-dev.org/download/sfml/2.5.1/
+* SFML (Simple and Fast Multi-Media Library) 2.5.1 or later. However, I have set everything up already for your convenience. You will not be required to download/link any libraries. The downside is that the download is ~30 MB more.
+* GCC 7.3.0 MinGW 
+* GNU Make 
 
-### Installing
+### Installing And Executing
 
-* Download the code from github, or clone the repository
-* link SFML with the project depending on what enviroment you are using
-* I used Visual Studio...a simple 5 minute tutorial for linking SFML with a Visual Studio project can be found here: https://www.youtube.com/watch?v=YfMQyOw1zik
-
-### Executing program
-
-* Once everything is installed and set up, simply compile the .cpp and .h files and run "main.cpp"
+* Download the source code from here, or copy the repository into your enviroment
+* Open your terminal
+* run the command 'make' to build project
+* Now run the executable by running the command 'run' or 'run.exe' to start the program
 
 ## Authors
 
