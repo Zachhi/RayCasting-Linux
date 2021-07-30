@@ -25,7 +25,7 @@ Simple ray casting simulation that shows how rays of light would behave dependin
 * GNU Make 
 
 **If you want to use Visual Studio Code, which would not require the use of a makefile**
-I have provided a version for Visual Studio Code here: https://github.com/Zachhi/RayCasting-VisualStudio
+  *I have provided a version for Visual Studio Code here: https://github.com/Zachhi/RayCasting-VisualStudio
 
 ### Installing And Executing
 
