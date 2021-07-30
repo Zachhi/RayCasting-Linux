@@ -36,7 +36,7 @@ Please see: https://github.com/Zachhi/RayCasting-VisualStudio
 * run the command 'make' to build project
 * Now run the executable by running the command 'run' or 'run.exe' to start the program
 * If it does not work right away for you, there is two things you have to check:
-            * Go to your default compiler path or 'C_Cpp.default.compilerpath' and make the path is set to 'C:/MinGW/bin/g++.exe' or wherever your MinGW is located
+            * Go to your default compiler path or ('C_Cpp.default.compilerpath') and make the path is set to 'C:/MinGW/bin/g++.exe' or wherever your MinGW is located
             * Go to your default include path or 'C_Cpp.default.includepath' and make sure the path is set to '["${workspaceFolder}**/"]
 
 ## Authors
