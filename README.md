@@ -23,6 +23,8 @@ Simple ray casting simulation that shows how rays of light would behave dependin
 * SFML (Simple and Fast Multi-Media Library) 2.5.1 or later. However, I have set everything up already for your convenience. You will not be required to download/link any libraries. The downside is that the download is ~30 MB more.
 * GCC 7.3.0 MinGW 
 * GNU Make 
+** If you wish to run this program without the requirement of MinGW and GNU Make **
+Please see https://github.com/Zachhi/RayCasting-VisualStudio
 
 ### Installing And Executing
 
