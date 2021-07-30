@@ -2,7 +2,7 @@
 
 Simple ray casting simulation that shows how rays of light would behave depending on its source location and the walls around it
 
-Note: If you have access to Visual Studio, I reccomend that version, which can be found here: https://github.com/Zachhi/RayCasting-VisualStudio
+**Note: If you have access to Visual Studio, I reccomend that version, which can be found here: https://github.com/Zachhi/RayCasting-VisualStudio**
 
 ## Demo
 
@@ -23,11 +23,10 @@ Note: If you have access to Visual Studio, I reccomend that version, which can b
 ### Dependencies
 
 * SFML (Simple and Fast Multi-Media Library) 2.5.1 or later. However, I have set everything up already for your convenience. You will not be required to download/link any libraries. The downside is that the download is ~30 MB more.
-* GCC 7.3.0 MinGW 
+* GCC 7.3.0 MinGW or later
 * GNU Make 
 
-**If you want to use Visual Studio (Recommended), which would not require the use of a makefile,**
- I have provided a version for Visual Studio here: https://github.com/Zachhi/RayCasting-VisualStudio
+**If you want to use Visual Studio (Recommended), which would not require the use of a makefile, scroll to the top to find the link**
 
 ### Installing And Executing
 
