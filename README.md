@@ -24,10 +24,9 @@ Simple ray casting simulation that shows how rays of light would behave dependin
 * GCC 7.3.0 MinGW 
 * GNU Make 
 
-**If you wish to run this program without the requirement of MinGW and GNU Make, or you would like to use Visual Studio Code**
+**If you want to use Visual Studio Code, which would not require the use of a makefile
 
-I have provided a version that will run in Visual Studio Code. This will take about 5 minutes to set up. 
-Please see: https://github.com/Zachhi/RayCasting-VisualStudio
+I have provided a version for Visual Studio Code here: https://github.com/Zachhi/RayCasting-VisualStudio
 
 ### Installing And Executing
 
@@ -36,8 +35,9 @@ Please see: https://github.com/Zachhi/RayCasting-VisualStudio
 * run the command `make` to build project
 * Now run the executable by running the command `run` or `run.exe` to start the program
 * If it does not work right away for you, there is two things you have to check:
-            * Go to your default compiler path or `C_Cpp.default.compilerpath` and make the path is set to `C:/MinGW/bin/g++.exe` or wherever your MinGW is located
-            * Go to your default include path or `C_Cpp.default.includepath` and make sure the path is set to `["${workspaceFolder}**/"]`
+  * Go to your default compiler path or `C_Cpp.default.compilerpath` and make the path is set to `C:/MinGW/bin/g++.exe` or wherever your MinGW is located
+  * Go to your default include path or `C_Cpp.default.includepath` and make sure the path is set to `["${workspaceFolder}**/"]`
+  * Run `make` and `run` again and the program should execute
 
 ## Authors
 
