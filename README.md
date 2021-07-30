@@ -24,8 +24,7 @@ Simple ray casting simulation that shows how rays of light would behave dependin
 * GCC 7.3.0 MinGW 
 * GNU Make 
 
-**If you want to use Visual Studio Code, which would not require the use of a makefile
-
+**If you want to use Visual Studio Code, which would not require the use of a makefile**
 I have provided a version for Visual Studio Code here: https://github.com/Zachhi/RayCasting-VisualStudio
 
 ### Installing And Executing
