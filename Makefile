@@ -7,23 +7,23 @@ all: rayCasting link
 
 rayCasting: $(objects)
 
-line.o : rayCasting/line/line.cpp rayCasting/line/line.h
-	$(CC) -IsfmlFiles/include $(CFLAGS) rayCasting/line/line.cpp
+line.o : rayCasting/src/line/line.cpp rayCasting/src/line/line.h
+	$(CC) -IsfmlFiles/include $(CFLAGS) rayCasting/src/line/line.cpp
 
-wall.o : rayCasting/wall/wall.cpp rayCasting/wall/wall.h
-	$(CC) -IsfmlFiles/include $(CFLAGS) rayCasting/wall/wall.cpp
+wall.o : rayCasting/src/wall/wall.cpp rayCasting/src/wall/wall.h
+	$(CC) -IsfmlFiles/include $(CFLAGS) rayCasting/src/wall/wall.cpp
 
-lightRay.o : rayCasting/light/lightRay.cpp rayCasting/light/lightRay.h
-	$(CC) -IsfmlFiles/include $(CFLAGS) rayCasting/light/lightRay.cpp
+lightRay.o : rayCasting/src/light/lightRay.cpp rayCasting/src/light/lightRay.h
+	$(CC) -IsfmlFiles/include $(CFLAGS) rayCasting/src/light/lightRay.cpp
 
-lightSource.o : rayCasting/light/lightSource.cpp rayCasting/light/lightSource.h
-	$(CC) -IsfmlFiles/include $(CFLAGS) rayCasting/light/lightSource.cpp
+lightSource.o : rayCasting/src/light/lightSource.cpp rayCasting/src/light/lightSource.h
+	$(CC) -IsfmlFiles/include $(CFLAGS) rayCasting/src/light/lightSource.cpp
 
-simulation.o : rayCasting/simulation.cpp rayCasting/simulation.h
-	$(CC) -IsfmlFiles/include $(CFLAGS) rayCasting/simulation.cpp
+simulation.o : rayCasting/src/simulation.cpp rayCasting/src/simulation.h
+	$(CC) -IsfmlFiles/include $(CFLAGS) rayCasting/src/simulation.cpp
 
-main.o : rayCasting/main.cpp 
-	$(CC) -IsfmlFiles/include $(CFLAGS) rayCasting/main.cpp
+main.o : rayCasting/src/main.cpp 
+	$(CC) -IsfmlFiles/include $(CFLAGS) rayCasting/src/main.cpp
 
 link: 
 	$(CC) $(objects) -o run -LsfmlFiles/lib $(SFML)
