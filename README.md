@@ -24,7 +24,7 @@ Simple ray casting simulation that shows how rays of light would behave dependin
 
 * Windows or Linux
 * SFML (Simple and Fast Multi-Media Library) 2.5.1 or later. However, I have set everything up already for your convenience. You will not be required to download/link any libraries. The downside is that the download is ~30 MB more.
-* GCC 7.3.0 MinGW or later
+* GCC 7.3.0 MinGW (32 bit) or later. If you want to use 64 bit version of GCC, download the SFML GCC 64-bit version from https://www.sfml-dev.org/download/sfml/2.5.1/ then simply replace the `include` and `library` files in `sfmlFiles` with the `include` and `library` files you just downloaded. Then delete and replace the current .dlls with the .dll files in `bin` folder.
 * GNU Make 
 
 **If you want to use Visual Studio (Recommended), which would not require the use of a makefile, scroll to the top to find the link**
