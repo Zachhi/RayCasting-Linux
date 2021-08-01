@@ -2,7 +2,7 @@
 
 Simple ray casting simulation that shows how rays of light would behave depending on its source location and the walls around it
 
-**Note: If you have access to Visual Studio, I reccomend that version, which can be found here: https://github.com/Zachhi/RayCasting-VisualStudio**
+**Note: If you have access to Visual Studio, I recommend that version, which can be found here: https://github.com/Zachhi/RayCasting-VS**
 
 ## Demo
 
