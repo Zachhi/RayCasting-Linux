@@ -2,7 +2,7 @@
 
 Simple ray casting simulation that shows how rays of light would behave depending on its source location and the walls around it
 
-**Note: If you have access to Visual Studio, I recommend that version, which can be found here: https://github.com/Zachhi/RayCasting-VS**
+**Note: If you have access to Visual Studio, and would prefer that, it can be found here: https://github.com/Zachhi/RayCasting-VS**
 
 ## Demo
 
@@ -27,7 +27,7 @@ Simple ray casting simulation that shows how rays of light would behave dependin
 * GCC 7.3.0 MinGW (32 bit) or later. If you want to use 64 bit version of GCC, download the SFML GCC 64-bit version from https://www.sfml-dev.org/download/sfml/2.5.1/ then simply replace the `include` and `lib` files in `sfmlFiles` with the `include` and `library` files you just downloaded. Then delete and replace the current .dlls with the .dll files in the `bin` folder you just downloaded.
 * GNU Make 
 
-**If you want to use Visual Studio (Recommended), which would not require the use of a makefile, scroll to the top to find the link**
+**If you want to use Visual Studio, which would not require the use of a makefile (if you dont have GNU Make set up), scroll to the top to find the link**
 
 ### Installing And Executing
 
